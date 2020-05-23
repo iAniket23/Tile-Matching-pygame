@@ -69,7 +69,7 @@ class Game:
         Tile.set_surface(self.surface) 
         
         for image in range(1,9):
-            self.tiles.append(pygame.image.load('image' + str(image) + '.bmp'))
+            self.tiles.append(pygame.image.load('images/image' + str(image) + '.bmp'))
 
         # double it then shuffle
         self.tiles = self.tiles+self.tiles
